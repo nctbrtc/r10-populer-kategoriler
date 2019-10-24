@@ -9,6 +9,7 @@
 
 // ==/UserScript==
 
+
 document.querySelector("body > main > div > div.featuredTabs").style.width="80%";
 document.querySelector("body > main > div > div.featuredTabs").style.float="left";
 document.querySelector("body > main > div > div.forumList > div > div.mainHead").style.width="100%";
@@ -116,18 +117,12 @@ background-color: #3f4257;
 color: white;
 margin: 0px auto;
 padding:0 20px;
- ::after {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background: #ff5e3a;
-    bottom: 0;
-}
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 
 .widgetTop {width: 19.5%;float:
 right;border-color: #3f4257;
-border-style: solid;
 border-radius: 5px;
 background-color: #e2e6e9;
 background-color: #f5f8fa;
