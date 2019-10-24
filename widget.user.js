@@ -14,8 +14,8 @@ document.querySelector("body > main > div > div.featuredTabs").style.width="80%"
 document.querySelector("body > main > div > div.featuredTabs").style.float="left";
 document.querySelector("body > main > div > div.forumList > div > div.mainHead").style.width="100%";
 
-document.querySelector("body > main > div > div.featuredTabs > ul.nav.nav-tabs.nav-desktop.ui-sortable > li.customize.unsortable").remove();
-
+var custumize=document.querySelector("body > main > div > div.featuredTabs > ul.nav.nav-tabs.nav-desktop.ui-sortable > li.customize.unsortable");
+if (custumize) {custumize.remove();}
 var h=document.querySelector("body > main > div > div.featuredTabs > ul.nav.nav-tabs.nav-desktop.ui-sortable").offsetHeight;
 var h2=document.querySelector("body > main > div > div.featuredTabs > div > div.head").offsetHeight;
 
