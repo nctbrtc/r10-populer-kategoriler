@@ -73,7 +73,7 @@ var sirali = list.sort( function( a, b ) { return b.sayi - a.sayi; });
 var siralicikti=[];
 for ($i=0;$i<10;$i++)
 {
-  siralicikti.push('<div class="widgetSatir"><span class="kategori-ismi"><i class="fa fa-angle-right"></i> '+sirali[$i]['link'].replace("Kişi","")+'</span><span class="onlineSayisi"> <i class="fa fa-circle" style="color:#11f762;"></i> '+sirali[$i]['sayi']+'</span></div>')
+  siralicikti.push('<div class="widgetSatir"><span class="kategori-ismi"><i class="fa fa-angle-right"></i> '+sirali[$i]['link'].replace("Kişi","")+'</span><span class="onlineSayisi"> <i class="fa fa-circle" style="color:#11f762;"></i> '+sirali[$i]['sayi'].replace("Kişi","")+'</span></div>')
 }
 
 
